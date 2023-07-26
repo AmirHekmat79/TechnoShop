@@ -1,0 +1,16 @@
+.card-bg{
+    background-color: #e8ecef;
+    box-shadow: 3px 3px 10px #ccc;
+}
+
+.brand-card{
+    margin: 5px auto;
+    position: absolute;
+    box-shadow: 5px 5px 4px #ccc;
+    transition: all .4s ease;
+}
+
+
+.brand-card:hover{
+    transform: translateY(-5px);
+}

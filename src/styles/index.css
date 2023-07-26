@@ -1,0 +1,21 @@
+/* @font-face {
+  font-family: 'vazir-fd-wl';
+  src: url('../fonts/vazir/vazir-fd-wl.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'vazir-bold-fd-wl';
+  src: url('../fonts/vazir/vazir-bold-fd-wl.ttf') format('truetype');
+} */
+
+body {
+  direction: rtl;
+  text-align: right;
+  /* font-family: vazir-fd-wl; */
+  font-size: 14px;
+  background-color: #fff !important;
+}
+
+/* code {
+  font-family: vazir-fd-wl
+} */
+

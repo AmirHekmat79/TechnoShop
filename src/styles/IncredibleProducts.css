@@ -1,0 +1,21 @@
+.timeZoneElement{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top : 60px;
+    left : 18px;
+    color : #eee;   
+}
+
+.product-card{
+    margin: 4px auto;
+    position: absolute;
+    box-shadow: 5px 5px 4px #ccc;
+    transition: all .4s ease;
+}
+
+.product-card:hover{
+    transform: translateY(-4px);
+}

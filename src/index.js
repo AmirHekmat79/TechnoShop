@@ -1,13 +1,53 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import './styles/index.css';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Landing from './routes/landing';
+import Products from './routes/products';
+import Suggestions from './routes/suggestions';
+import AboutUs from './routes/aboutUs';
+import Purchases from './routes/purchases';
+import Login from './routes/login';
+// import Test from './routes/test';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Landing />,
+  },
+  // {
+  //   path: 'test',
+  //   element: <Test />,
+  // },
+  {
+    path: 'products',
+    element: <Products />,
+  },
+  {
+    path: 'suggestions',
+    element: <Suggestions />,
+  },
+  {
+    path: 'purchases',
+    element: <Purchases />,
+  },
+  {
+    path: 'about-us',
+    element: <AboutUs />,
+  },
+  {
+    path: 'login',
+    element: <Login />,
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

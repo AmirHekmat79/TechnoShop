@@ -1,0 +1,16 @@
+/* .application {
+  padding-left: min(21vw, 13.5rem);
+  display: flex;
+  max-width: 1500px;
+  margin-inline: auto;
+
+  .pages-container {
+    width: 100%;
+    min-height: 100vh;
+    padding-block: 2rem;
+    padding-inline: 0.25rem;
+    display: grid;
+    place-items: center;
+    color: var(--clr-primary-300);
+  }
+} */

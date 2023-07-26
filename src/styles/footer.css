@@ -1,0 +1,25 @@
+.divider{
+    width : 50%;
+    border-bottom: 2px solid #2980b9;
+}
+
+.list-container{
+    list-style-type: none;
+}
+.about-line{
+    line-height:30px;
+}
+
+footer{
+    background: linear-gradient(to right ,#e3f0f8 , #dbdbf5);
+    box-shadow: 5px 5px 4px #fff;
+}
+
+ul li a{
+    color : #0d7676;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+ul li a:hover{
+    color : #054169;
+}
