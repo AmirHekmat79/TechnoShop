@@ -5,7 +5,6 @@
 
 .brand-card{
     margin: 5px auto;
-    position: absolute;
     box-shadow: 5px 5px 4px #ccc;
     transition: all .4s ease;
 }
