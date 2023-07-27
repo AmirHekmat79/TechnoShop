@@ -1,21 +1,18 @@
-/* @font-face {
-  font-family: 'vazir-fd-wl';
-  src: url('../fonts/vazir/vazir-fd-wl.ttf') format('truetype');
-}
-@font-face {
-  font-family: 'vazir-bold-fd-wl';
-  src: url('../fonts/vazir/vazir-bold-fd-wl.ttf') format('truetype');
-} */
 
+@font-face {
+  font-family: 'IRANSansWeb';
+  src: url('../assets/fonts/IRANSansWeb_Medium.ttf') format('ttf');
+  font-weight: 400;
+  font-style: normal;
+}
 body {
   direction: rtl;
   text-align: right;
-  /* font-family: vazir-fd-wl; */
-  font-size: 14px;
+  font-family:'IRANSansWeb' !important ;
   background-color: #fff !important;
 }
 
-/* code {
-  font-family: vazir-fd-wl
-} */
+code {
+  font-family:'IRANSansWeb' !important ;
+}
 

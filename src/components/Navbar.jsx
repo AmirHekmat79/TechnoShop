@@ -7,7 +7,6 @@ const Navbar = () => {
     const ulRef = useRef(null);
     const shopNavIcon1 = useRef(null);
     const shopNavIcon2 = useRef(null);
-    // const [flag , setFlag] = useState('1');
     return (  <>
           <div className='nav-wrapper'>
             <nav>

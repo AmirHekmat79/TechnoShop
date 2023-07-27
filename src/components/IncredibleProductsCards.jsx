@@ -1,4 +1,4 @@
-import { useState } from 'react';
+
 import { Autoplay, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/bundle';
@@ -10,7 +10,7 @@ const IncredibleProductsCards = () => {
   const timeZone = new Date();
   let day = timeZone.getDay();
 
-  const [incredibleProducts] = useState([
+  const incredibleProducts = [
     {
       id: 1,
       name: 'هندزفری ',
@@ -83,7 +83,7 @@ const IncredibleProductsCards = () => {
       price: '32,200,000',
       oldPrice: '28,159,000',
     },
-  ]);
+  ];
   return (
     <>
       <div className="container mb-5" id="fadeshow2">

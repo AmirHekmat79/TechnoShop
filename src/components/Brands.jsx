@@ -1,12 +1,12 @@
-import { useState } from 'react';
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay } from 'swiper/modules';
 import 'swiper/css/bundle';
 import 'swiper/css/autoplay';
-// import '../styles/IncredibleProducts.css'
 import '../styles/brands.css';
+
 const Brands = () => {
-  const [brands] = useState([
+  const brands = [
     { id: 1, src: 'brand-1.jpg' },
     { id: 2, src: 'brand-2.jpg' },
     { id: 3, src: 'brand-3.jpg' },
@@ -17,7 +17,7 @@ const Brands = () => {
     { id: 8, src: 'brand-8.jpg' },
     { id: 9, src: 'brand-9.jpg' },
     { id: 10, src: 'brand-10.jpg' },
-  ]);
+  ];
   return (
     <>
       <div className="container">

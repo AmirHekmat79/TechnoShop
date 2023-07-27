@@ -1,4 +1,4 @@
-import LayoutDefault from '../../layouts/LayoutDefault/index';
+import LayoutDefault from "../../layouts/layoutDefault";
 
 const AboutUs = () =>{
     return (

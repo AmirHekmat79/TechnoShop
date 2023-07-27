@@ -1,12 +1,12 @@
-import { useState } from "react";
+
 const TechnoShopBenefits = () => {
-    const [shopBenefits ] = useState([
+    const shopBenefits = [
         {name : 'خریداقساطی' , src : '3.png'},
         {name : 'تکنوپلاس' , src : '6.png'},
         {name : 'تکنو مارکت' , src :'1.png'} ,
         {name : 'هدیه خرید' , src :'7.png'}
     
-    ])
+    ];
     return (  <>
                <div className="container my-5">
                 <div className="row justify-center items-center align-center">

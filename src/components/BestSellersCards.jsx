@@ -1,14 +1,13 @@
-import { useState } from 'react';
+
 import { Autoplay, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import 'swiper/swiper-bundle'
-
 import 'swiper/css/bundle';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 import '../styles/bestSellersCards.css';
+
 const BestSellersCards = () => {
-  const [BestSellersProducts] = useState([
+  const BestSellersProducts = [
     {
       id: 1,
       name: ' شیائومی Poco',
@@ -35,7 +34,7 @@ const BestSellersCards = () => {
     },
     {
       id: 4,
-      name: '   نوت 15 SE شیائومی ',
+      name: 'شیائومی ',
       src: 'p_19.jpg',
       discount: '%2',
       price: '16,200,000',
@@ -43,7 +42,7 @@ const BestSellersCards = () => {
     },
     {
       id: 5,
-      name: '  Iphone 14 Pro ',
+      name: 'Iphone 14 Pro ',
       src: 'p_19.jpg',
       discount: '%5',
       price: '79,200,000',
@@ -51,7 +50,7 @@ const BestSellersCards = () => {
     },
     {
       id: 6,
-      name: '  Iphone 13 Pro',
+      name: 'Iphone 13 Pro',
       src: 'p_21.jpg',
       discount: '%5',
       price: '79,200,000',
@@ -59,7 +58,7 @@ const BestSellersCards = () => {
     },
     {
       id: 7,
-      name: '   نوت 15  شیائومی  ',
+      name: 'شیائومی',
       src: 'p_20.jpg',
       discount: '%5',
       price: '28,200,000',
@@ -67,7 +66,7 @@ const BestSellersCards = () => {
     },
     {
       id: 8,
-      name: '   نوت 15  شیائومی  ',
+      name: '    15  شیائومی  ',
       src: 'p_23.jpg',
       discount: '%5',
       price: '28,200,000',
@@ -81,7 +80,7 @@ const BestSellersCards = () => {
       price: '68,200,000',
       oldPrice: '24,159,000',
     },
-  ]);
+  ];
   return (
     <>
       <div className="container mb-5" id="fadeshow1">

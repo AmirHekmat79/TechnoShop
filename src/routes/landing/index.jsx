@@ -1,4 +1,4 @@
-import LayoutDefault from '../../layouts/LayoutDefault';
+import LayoutDefault from '../../layouts/layoutDefault';
 import BestSellersCards from '../../components/BestSellersCards';
 import ProductBannerSlider from '../../components/ProductBannerSlider';
 import TechnoShopBenefits from '../../components/TechnoShopBenefits';
@@ -9,11 +9,6 @@ import IncredibleProductsCards from '../../components/IncredibleProductsCards';
 import UsersSugestion from '../../components/UsersSugestion';
 import Brands from '../../components/Brands';
 
-// import LayoutDefault from '../../layouts/LayoutDefault';
-// import Products from './components/products';
-// import Suggestions from './components/suggestions';
-// import Purchases from './components/purchases';
-// import Aboutus from './components/aboutus';
 
 const Landing = () => {
   return (

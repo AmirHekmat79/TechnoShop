@@ -11,17 +11,13 @@ import Suggestions from './routes/suggestions';
 import AboutUs from './routes/aboutUs';
 import Purchases from './routes/purchases';
 import Login from './routes/login';
-// import Test from './routes/test';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Landing />,
   },
-  // {
-  //   path: 'test',
-  //   element: <Test />,
-  // },
   {
     path: 'products',
     element: <Products />,
