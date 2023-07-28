@@ -5,6 +5,7 @@ import 'swiper/css/bundle';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 import '../styles/bestSellersCards.css';
+import { Link } from 'react-router-dom';
 
 const BestSellersCards = () => {
   const BestSellersProducts = [
@@ -161,13 +162,13 @@ const BestSellersCards = () => {
                 </div>
               </div>
             </div>
-            <a
-              href="#"
+            <Link
+              to="/products"
               style={{ width: '30%', margin: 'auto' }}
               className="btn badge text-center badge-pill px-5 py-3 btn-primary d-none d-lg-block"
             >
               مشاهده بیشتر
-            </a>
+            </Link>
           </div>
         </div>
       </div>

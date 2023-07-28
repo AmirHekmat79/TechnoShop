@@ -34,7 +34,7 @@ const Navbar = () => {
                  <li className='list-item'> <NavLink className='link text-decoration-none mx-2' to='/'><FontAwesomeIcon className="mx-2 text-primary" icon={faLayerGroup}/> خانه </NavLink></li>
                   <li className='list-item'> <NavLink className='link text-decoration-none mx-2' to='/products'><FontAwesomeIcon className="mx-2 text-primary" icon={faGift}/> دسته بندی کالاها </NavLink></li>
                   <li className='list-item'> <NavLink className='link text-decoration-none mx-2' to='/suggestions'><FontAwesomeIcon className="mx-2 text-primary" icon={faTags}/>  پیشنهادات و تخفیفات </NavLink></li>
-                  <li className='list-item'> <NavLink className='link text-decoration-none mx-2' to='/about-us'><FontAwesomeIcon className="mx-2 text-primary" icon={faInfoCircle}/> درباره ما </NavLink></li>
+                  <li className='list-item'> <NavLink className='link text-decoration-none mx-2' to='/about-us'><FontAwesomeIcon className="mx-2 text-primary" icon={faInfoCircle}/> ارتباط با ما </NavLink></li>
                  </div>
                   <div ref={shopNavIcon1} className='link-group-2'>
                   <li className='list-item'>

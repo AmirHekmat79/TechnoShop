@@ -1,0 +1,59 @@
+.acordion-container{
+    /* background: linear-gradient(to right ,#2076ab , #6969e6); */
+    margin : 40px auto;
+    box-shadow: 3px 3px 2px #ccc;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.first-acordion{
+    border-radius: 5px;
+    padding : 10px;
+    /* width : 100%; */
+    margin : 20px auto;
+}
+
+.second-acordion{
+    border-radius: 5px;
+    padding : 10px;
+    /* width : 100%; */
+    margin : 20px auto;
+}
+
+.third-acordion{
+    border-radius: 5px;
+    padding : 10px;
+    /* width : 100%; */
+    margin : 20px auto;
+}
+.fourth-acordion{
+    border-radius: 5px;
+    padding : 10px;
+    /* width : 100%; */
+    margin : 20px auto;
+}
+.divider-line{
+    width : 100%;
+    height:1px;
+    background: #c4c3c3;
+}
+
+
+.first-question , .second-question , .third-question , .fourth-question{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    font-weight: bold;
+    background: linear-gradient(to right,#112c3e , #2f3dd5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.acordion-title{
+    font-weight: bold;
+    background: linear-gradient(to right,#112c3e , #2f3dd5);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

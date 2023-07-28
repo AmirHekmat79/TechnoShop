@@ -1,15 +1,13 @@
-
 import { Autoplay, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css/bundle';
 import 'swiper/css/navigation';
 import 'swiper/css/autoplay';
 import '../styles/IncredibleProducts.css';
+import { Link } from 'react-router-dom';
 
 const IncredibleProductsCards = () => {
   const timeZone = new Date();
-  let day = timeZone.getDay();
-
   const incredibleProducts = [
     {
       id: 1,
@@ -100,9 +98,9 @@ const IncredibleProductsCards = () => {
                 <span className="mx-2">{timeZone.getHours()}</span>:روز
                 <span className="mx-2">
                   {setInterval(() => {
-                    day -= 1;
-                  }, 864000)}{' '}
-                </span>{' '}
+                    timeZone.getDay();
+                  }, 864000)}
+                </span>
               </span>
             </div>
             <div className="card-body px-5">
@@ -119,19 +117,18 @@ const IncredibleProductsCards = () => {
                     onSwiper={(swiper) => console.log(swiper)}
                     onSlideChange={() => console.log('slide change')}
                     breakpoints={{
-                        360:{
-                            width: 360,
-                            slidesPerView: 2,
-                        },
-                       576: {
-                          width: 576,
-                          slidesPerView: 3,
-                        },
-                        768: {
-                            width: 768,
-                            slidesPerView: 4,
-                          }
-
+                      360: {
+                        width: 360,
+                        slidesPerView: 2,
+                      },
+                      576: {
+                        width: 576,
+                        slidesPerView: 3,
+                      },
+                      768: {
+                        width: 768,
+                        slidesPerView: 4,
+                      },
                     }}
                   >
                     {incredibleProducts.map((product) => {
@@ -176,13 +173,13 @@ const IncredibleProductsCards = () => {
                 </div>
               </div>
             </div>
-            <a
-              href="#"
+            <Link
+              to="/products"
               style={{ width: '30%', margin: 'auto' }}
               className="btn badge text-center badge-pill px-5 py-3 btn-primary d-none d-lg-block"
             >
               مشاهده بیشتر
-            </a>
+            </Link>
           </div>
         </div>
       </div>
